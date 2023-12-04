@@ -1,0 +1,43 @@
+; LC3 Machine Code
+; Takes value in x3100
+; Left Shifts the value by the shift amount stored in x3101
+; Stores the result in x3102
+
+
+; Begin Program at Memory Location x3000
+0011 0000 0000 0000
+
+; Step 0: Store Registers R0, R1 and R7
+0011 000 000001101
+0011 001 000001101
+0011 111 000001101
+
+; Step 1: Read into R0 from memory location x3100
+0010 000 011111100
+
+; Step 2: Read into R1 from memory location x3101
+0010 001 011111100
+
+; Step 3: When done, skip to step 6
+0000 110 000000011
+
+; Step 4: Add R0 to itself to left-shift once
+0001 000 000 000 000
+
+; Step 5: Update R1 and Return to step 3
+0001 001 0 0 1111111
+0100 1 11111111100
+
+; Step 6: Store answer in x3102
+0011 000 011111000
+
+; Step 7: Restore R0, R1 and R7
+0010 000 000000011
+0010 001 000000011
+0010 111 000000011
+
+;Step 8a: Halt the Processor
+;1111 0000 00100101
+
+;Step 8b: Return From Subroutine
+1100 000 111 000000
