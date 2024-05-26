@@ -1,6 +1,6 @@
 ; LedBrightness.s
 ; Jacob Read
-; Demonstrates how variying output duty cycle can change the brightness of an LED
+; Demonstrates how variying output duty cycle can change the brightness of a LED
 ; One Input will cycle through the following duty cycle outputs: {30, 60, 90, 10}
 ; Another gradually increments the duty cycle when held to "breathe" the LED
 ; This lab uses the onboard buttons and LED for the TM4C123GXL Launchpad Board, but
@@ -29,13 +29,12 @@ GPIO_PORTF_LOCK_R  EQU 0x40025520
 GPIO_PORTF_CR_R    EQU 0x40025524
 GPIO_LOCK_KEY      EQU 0x4C4F434B
 
-       IMPORT  TExaS_Init
-       THUMB
-	   AREA    DATA, ALIGN=2
-       AREA    |.text|, CODE, READONLY, ALIGN=2
-       THUMB
-       ALIGN 4
-       EXPORT  portInit
+    THUMB
+	AREA    DATA, ALIGN=2
+    AREA    |.text|, CODE, READONLY, ALIGN=2
+    THUMB
+    ALIGN 4
+    EXPORT  portInit
 
 portInit
 	LDR R0, =SYSCTL_RCGCGPIO_R; R0 points to GPIO Clock
