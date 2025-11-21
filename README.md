@@ -22,4 +22,11 @@ A few projects located in this repository may require code from external authors
 Each project will contain a README.md documenting the project and it's requirements in order to trivialize any content that may be removed before uploading.
 
 ### Academic Dishonesty and the Use of this Repository
-// Don't cheat plz
+By uploading my solutions to the problems I was posed as an undergraduate, I am aware of the possibility for future students to find them and pass off as their own.
+
+In order to mitigate this, I have done the following:
+- Extracted my own implementation from starter files, and dropped all code with external authors.
+- Made requirements adjustments, and excluded distributed requirements documents from this repository.
+- Concealed implementation where possible.
+
+By taking these steps, I absolve myself of the resposibility of preventing future students from using this repository to cheat on their assignments. **If any students do come across my repository, I hope that they can benefit from any test suites I have written to validate the answers they have authored on their own.**
