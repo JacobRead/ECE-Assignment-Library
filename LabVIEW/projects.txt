@@ -1,0 +1,8 @@
+The projects:
+- Time is Money Motivator (Labs 1 and 2) 
+    Goals: setup labVIEW, write something ez, use mathscript, and learn about while loops, enums, etc
+- Oscilliscope At Home (Lab 3)
+- Study materials (Labs 4, 6, 7, 8, 10, & 11)
+- Audio Equalizer (Lab 5)
+- Monty Hall Demonstrator (Lab 9)
+- Car Final Project (Lab 12/13)
