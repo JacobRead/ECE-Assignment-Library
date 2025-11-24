@@ -17,11 +17,11 @@ The task for this Project is to create a LabVIEW .vi that, for a given income an
 - Must be able to toggle for hours worked each week and overtime percentage if applicable
 - Salary Employees are not eligible for Overtime pay ;(
 - Money Calculations are all done pre-tax
-- The .vi must run continously, users should only have to hit "run" one time until they close the application
+- The .vi must run continuously, users should only have to hit "run" one time until they close the application
 - Any invalid values should be reported as errors, but not crash the .vi
 
 # Development
-Development incomplete or in-progess, stay tuned!
+Development incomplete or in-progress, stay tuned!
 
 # Testing
 LabVIEW technically CAN be automated with inputs and outputs and run as a part of a larger test suite, however setting up an ATS for these few LabVIEW projects may be a tad excessive.  
@@ -36,9 +36,9 @@ Instead I have provided the table below with key test cases to test against. Fee
 | Important Phone Call | 1.75 | 0.75 | Hourly | 13.50 | 1.275x | 26.41 | Hybrid Hourly Overtime can be positively calculated |  
 | Customer Escalation | 5.33 | 5.33 | Salary | 100,000 | 300x | 256.25 | Validate OT pay does not apply to salary (Standard) |  
 | Troubleshooting technology problems | 0.99 | 0.67 | Salary | 68,000 | 1.22x | 32.37 | Validate OT pay does not apply to salary (Hybrid) |  
-| Checking the Mailbox | 0.33 | 0.11 | Hourly | 0.00 | 2.25x | 0.00 | Zero pay edgecase (hourly) |  
-| That last hour before 5pm | 1 | 0 | Salary | 0.00 | N/A | 0.00 | Zero pay edgecase (salary) |  
-| Running Important Tests | 0 | 0 | Hourly | 7.25 | 1.33x | 0.00 | Zero hour edgecase (hourly) |  
-| Giving a difficult presentation | 0 | 0 | Salary | 35,000 | N/A | 0.00 | Zero hour edgecase (salary) |  
+| Checking the Mailbox | 0.33 | 0.11 | Hourly | 0.00 | 2.25x | 0.00 | Zero pay edge case (hourly) |  
+| That last hour before 5pm | 1 | 0 | Salary | 0.00 | N/A | 0.00 | Zero pay edge case (salary) |  
+| Running Important Tests | 0 | 0 | Hourly | 7.25 | 1.33x | 0.00 | Zero hour edge case (hourly) |  
+| Giving a difficult presentation | 0 | 0 | Salary | 35,000 | N/A | 0.00 | Zero hour edge case (salary) |  
 | Traveling back in time to meet deadlines | 5 | 7 | Hourly | 35 | 200x | -1 | Error, Overtime duration exceeds task duration (hourly) |  
 | Rushing to make up lost time scrolling | 9.334 | 102.3 | Salary | 135,000 | N/A | -1 | Error, Overtime duration exceeds task duration (salary) |  
