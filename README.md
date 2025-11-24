@@ -7,7 +7,7 @@ This repo is the home for **a redux** of the Electrical and Computer Engineering
 ## So what's different?
 
 ### Testing
-As I have long since graduated, I can no longer turn in these assignements to be graded, but I do want to make sure the content I have is accurate, functional, and well written. Hence I will be authoring extensive test suites for each applicable project in order to self-grade. Since my career began in 2022, I have seen firsthand how important software test is to development. Adding test suites to these projects feels like the perfect way to revisit these projects as a professional software developer, using my full range of experience to deliver complete, quality projects.
+As I have long since graduated, I can no longer turn in these assignments to be graded, but I do want to make sure the content I have is accurate, functional, and well written. Hence I will be authoring extensive test suites for each applicable project in order to self-grade. Since my career began in 2022, I have seen firsthand how important software test is to development. Adding test suites to these projects feels like the perfect way to revisit these projects as a professional software developer, using my full range of experience to deliver complete, quality projects.
 
 ### Requirements Adjustments
 I will also be modifying the requirements of many of these projects both to challenge myself to do something new (on the off chance I have my old answers lying around somewhere), but also to prevent this repo from being used for **EVIL**.
@@ -30,4 +30,4 @@ In order to mitigate this, I have done the following:
 - Made requirements adjustments, and excluded distributed requirements documents from this repository.
 - Concealed implementation where possible.
 
-By taking these steps, I absolve myself of the resposibility of preventing future students from cheating on their assignments. **If any students do come across my repository, I hope that they can instead benefit from any test suites I have written to validate the answers they have authored on their own.**
+By taking these steps, I absolve myself of the responsibility of preventing future students from cheating on their assignments. **If any students do come across my repository, I hope that they can instead benefit from any test suites I have written to validate the answers they have authored on their own.**
