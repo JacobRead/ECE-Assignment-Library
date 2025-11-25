@@ -9,4 +9,4 @@ LabVIEW 2018 is a fully licensed software. While I would love to have the abilit
 To accommodate for this, I have made the code viewable through thorough documentation and runnable through attatched executable versions of the projects that can be run without the required software licenses.
 
 # Hardware
-Some labs require both software and hardware to function. The National Instruments data acquisition device I am using for these labs is a National Instruments [MyDAQ](https://www.ni.com/en/shop/engineering-education/portable-student-devices/mydaq/what-is-mydaq.html)
+Some labs require both software and hardware to function. The data acquisition device I am using for these labs is a National Instruments [MyDAQ](https://www.ni.com/en/shop/engineering-education/portable-student-devices/mydaq/what-is-mydaq.html)
