@@ -1,7 +1,7 @@
 # LabVIEW Programming
 LabVIEW is a graphical design software created by National Instruments (now the Test and Measurement division of Emerson Electric Company as of Oct 2023).  
   
-The following projects in this folder were from my *Introduction to Electrical Engineering* Lab course, now spiced up with my experience working at NI/Emerson from July 2022 to October 2025.
+The following projects in this folder are inspired from my *Introduction to Electrical Engineering* course, with additional experience working at NI/Emerson from July 2022 to October 2025.
 
 # Software
 LabVIEW 2018 is a fully licensed software. While I would love to have the ability to distribute licenses to make my code viewable and runnable to everyone, I do not possess this ability.  
